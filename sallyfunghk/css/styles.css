@@ -1,0 +1,334 @@
+/*Whole Site*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/background.svg); /* https://www.svgbackgrounds.com/ */
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #006ad4;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif !important;
+    letter-spacing: 2px;
+    color: #144473;
+}
+
+.btn {
+    background-color: #144473;
+    border: 2px solid #144473;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    vertical-align: middle;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #144473d5;
+    border: 2px solid #144473d5;
+    color: #FFFFFF;
+}
+
+.btnAlt {
+    background: #FFFFFFd5;
+    border: 2px solid #144473;
+    color: #144473;
+    border-radius: 2px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    vertical-align: middle;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+.btnAlt:hover {
+    background-color: #144473d5;
+    border: 2px solid #144473d5;
+    color: #FFFFFF;
+}
+
+.content {
+    padding-top: 15px;
+}
+
+/* ========== HomePage ========== */
+#home-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro {
+    position: absolute;
+    top: 60vh;
+}
+
+.intro a {
+    margin: 10px 0px;
+}
+
+.jumbotron {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/HomepageImage.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    animation: kenburn 25s infinite alternate;
+}
+
+/* ========== AboutPage ========== */
+
+#about-section p {
+    line-height: 1.7;
+}
+
+#about-section img:nth-child(1) {
+    width: 100%;
+}
+
+#about-section .about-section2 {
+    padding: 20px;
+}
+
+#about-section .content {
+    margin: 20px 0px;
+}
+
+#about-section .heading {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #bbbbbb;
+}
+
+#about-section .content img {
+    width: 50%;
+    height: 50%;
+}
+
+#about-section .about-section2 .content:nth-child(odd) img {
+    float: right;
+    padding-left: 15px;
+}
+
+#about-section .about-section2 .content:nth-child(even) img {
+    float: left;
+    padding-right: 15px;
+}
+
+
+#about-section .col-md-10 {
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+
+
+/* ========== PortfolioPage ========== */
+
+#resume {
+    background: linear-gradient(-135deg, transparent 3em, #FFFFFF 0) !important;
+    padding: 2rem;
+    margin: auto 14px;
+}
+
+#resume::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4.2em;
+    height: 4.2em;
+    background: linear-gradient(-135deg, transparent 3em, #cecece 0);
+    box-shadow: -4px 3px 3px #e4e4e4;
+    margin: auto 14px;
+}
+
+#resume .heading h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5rem; 
+    margin-bottom: 1rem;
+    text-shadow: -2px 2px #e4e4e4;
+}
+
+#resume .heading h3 {
+    color: #1f63a8;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+#resume ul {
+    list-style-type: none;
+    margin-left: .5rem;
+    padding-left: .5rem;
+}
+
+#resume li {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+#resume .resumeContactBtn {
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.date {
+    background-color: #c4e7ff;
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 40%;
+    right: 10px;
+    background-color: #e4e4e456;
+    width: 35px;
+    height: 140px;
+    border-radius: 30px;
+}
+
+.sidebar p {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.sidebarButton button {
+    color: #40b3ff;
+    font-size: 10px;
+    background-color: #c4e7ff;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    transition: 0.5s;
+}
+
+.sidebarButton button:hover {
+    background-color: #40b3ff;
+    color: #c4e7ff;
+}
+
+.sidebarButton button:focus {
+    outline: 0;
+}
+
+/* ========== ContactPage ========== */
+
+
+#contactForm {
+    background: #FFFFFF;
+    margin: 0px auto;
+    padding: 30px;
+    border: 0;
+    border-radius: 3px;
+    overflow:hidden;
+}
+
+#contactForm .heading {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5rem; 
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #144473;
+    text-shadow: -2px 2px #e4e4e4;
+}
+
+#contactForm .btn {
+    width: 48.5%;
+    float: left;
+}
+
+#contactForm .btnAlt {
+    width: 48.5%;
+    float: right;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid #cecece;
+    background-color: #d0e6ff;
+    margin-bottom: 14px;
+}
+
+.field:hover {
+    background-color: #d0e6ff93;
+}
+
+.field:focus {
+    border: 2px solid #144473;
+    background-color: #d0e6ff93;
+}
+
+/* ========== Footer ========== */
+
+#footer .container-fluid {
+    height: 50px;
+    background-color: #aad2ffab;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#footer .alignLeft{
+    float: left;
+}
+
+#footer .alignRight{
+    float: right;
+}
+
+#footer a {
+    color: #FFFFFF;
+}
+
+#footer a:hover {
+    color: #FBDC98;
+}
+
+/* Others */
+
+#about-section, #portfolio-section, #contact-section, #pageNotFound-section {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.fadeIn {
+    opacity:0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.6s ease all;
+}
+
+.loaded {
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+@keyframes kenburn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,34 @@
+nav.navbar {
+    background-color: #333344 !important;
+    height: 50px;
+}
+
+.img-fluid {
+    width: auto;
+    height: 30px;
+}
+
+#navbarTransparent {
+    background-color: #FFFFFF00 !important;
+}
+
+#navbarTransparent .navbar-nav li a {
+    color: #144473 !important;
+}
+
+.navbar-nav li a {
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 2;
+    color: #E4E6E0 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #FBDC98 !important;
+    text-decoration: none;
+}
+
+.navbar-nav li a.active, #navbarTransparent .navbar-nav li a.active {
+    color: #FBDC98 !important;
+    text-decoration: none;
+}
