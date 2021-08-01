@@ -14,7 +14,7 @@
                         <h2 style="color: #FBDC98; font-weight: bold">Sally Fung</h2>
                         <h5><span style="color: #FFFFFF">from Hong Kong</span></h5>
                         <a href='./about.php' type='button' class='btnAlt'>Know more about me</a>
-                        <a href='https://github.com/sallyfunghk' target="_blank" type='button' class='btn'>View Source Code</a>
+                        <a href='https://github.com/sallyfunghk/mywebsite' target="_blank" type='button' class='btn'>View Source Code</a>
                     </div> <!-- /.intro -->
                 </div> <!-- /.fadeIn -->
             </div> <!-- /.col-md-12 -->
