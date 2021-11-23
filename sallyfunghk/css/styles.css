@@ -1,3 +1,4 @@
+
 /*Whole Site*/
 
 body {
@@ -89,6 +90,46 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     border-radius: 0px;
     animation: kenburn 25s infinite alternate;
+}
+
+#personality-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #bbbbbb70;
+}
+
+#personality-section h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.personality-card {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.personality-card .personality-heading p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.personality-card .personality-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #aec1d3;
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.personality-card .personality-content {
+    text-align: center;
 }
 
 /* ========== AboutPage ========== */

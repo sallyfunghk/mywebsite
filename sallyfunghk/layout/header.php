@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- meta data -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sally Fung in Hong Kong, a web programmer knowledge of HTML, CSS, Javascript, PHP, jQuery, Bootstrap." /> 
+        <meta name="author" content="Sally Fung" />
+        <meta name="copyright" content="© 2021 sallyfunghk.com" />
 
         <title>Sally Fung's website!</title>
 
@@ -16,33 +20,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         <!-- Customize CSS -->
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
-        <link rel="stylesheet" type="text/css" href="./css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
     </head>
 
     <body>
+        <header>
+            <!-- navigation bar -->
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="./"><img src = "images/logo.svg" alt="logo" class="img-fluid"></a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <!-- navigation bar -->
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="./"><img src = "./images/logo.svg" alt="logo" class="img-fluid"></a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ml-auto">
+                            <a href="./">HOME</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a href="about.php">ABOUT</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a href="portfolio.php">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a href="contact.php">CONTACT</a>
+                        </li>
+                    </ul>
+                </div> <!-- /.collapse -->
+            </nav> <!-- /.navbar -->
+        </header>
 
-        <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-auto">
-                    <a href="./">HOME</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a href="./about.php">ABOUT</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a href="./portfolio.php">PORTFOLIO</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a href="./contact.php">CONTACT</a>
-                </li>
-            </ul>
-        </div> <!-- /.collapse -->
-    </nav> <!-- /.navbar -->
